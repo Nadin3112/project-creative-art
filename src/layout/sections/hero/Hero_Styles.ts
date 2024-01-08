@@ -70,6 +70,7 @@ const HeroList = styled.ul`
     gap: 94px;
     flex-wrap: wrap;
     margin-top: 20px;
+    margin-bottom: 26px;
 
     @media ${theme.media.xl} {
         gap: 28px;
@@ -174,7 +175,7 @@ const HeroItem = styled.li`
 const BidWrapper = styled.div`
     position: absolute;
     right: 0;
-    bottom: -24px;
+    bottom: 0;
     min-width: 304px;
     padding: 20px;
     border-radius: 16px;
