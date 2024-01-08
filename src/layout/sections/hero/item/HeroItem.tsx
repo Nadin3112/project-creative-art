@@ -1,7 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
-import { font } from '../../../../assets/images/hero/Common';
-import { theme } from '../../../../styles/Theme';
+import { S } from '../Hero_Styles';
 
 type ItemPropsType = {
     quantity: number
@@ -11,36 +9,12 @@ type ItemPropsType = {
 
 export const Item: React.FC<ItemPropsType> = (props: ItemPropsType) => {
     return (
-        <HeroItem>
+        <S.HeroItem>
             <p>{props.quantity}
                 <b>{props.text}</b>
             </p>
             <span>{props.what}</span>
-        </HeroItem>
+        </S.HeroItem>
     );
 };
 
-const HeroItem = styled.li`
-    display: flex;
-    flex-direction: column;
-    
-    &:not(:last-child) {
-        padding-right: 26px;
-        border-right: 1px solid ${theme.colors.accent};
-
-    }
-
-    p {
-        ${font({family: "'Canela', serif", lineHeight: 0.8, color: theme.colors.accent, weight: 500, Fmax: 48, Fmin: 31 })};
-        margin-bottom: 16px;
-        display: inline;
-    }
-
-    b {
-        color: ${theme.colors.primaryFont};
-    }
-
-    span {
-        line-height: 1.6;
-    }
-`
