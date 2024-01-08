@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { font } from '../../../../styles/Common';
+import { font } from '../../../../assets/images/hero/Common';
 import { theme } from '../../../../styles/Theme';
 
 type ItemPropsType = {
@@ -25,14 +25,14 @@ const HeroItem = styled.li`
     flex-direction: column;
     
     &:not(:last-child) {
-        padding-right: 28px;
+        padding-right: 26px;
         border-right: 1px solid ${theme.colors.accent};
 
     }
 
     p {
         ${font({family: "'Canela', serif", lineHeight: 0.8, color: theme.colors.accent, weight: 500, Fmax: 48, Fmin: 31 })};
-        margin-bottom: 22px;
+        margin-bottom: 16px;
         display: inline;
     }
 

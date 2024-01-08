@@ -1,6 +1,11 @@
 import { createGlobalStyle } from "styled-components";
 import { theme } from "./Theme";
-import BgImage from "../assets/images/Bg.png";
+import bgImage from "../assets/images/Bg.png";
+import bg2x from "../assets/images/Bg@2x.png";
+import bgWebp from "../assets/images/Bg.webp";
+import bgWebp2x from "../assets/images/Bg@2x.webp";
+import bgAvif from "../assets/images/Bg.avif";
+import bgAvif2x from "../assets/images/Bg@2x.avif";
 
 export const GlobalStyled = createGlobalStyle`
 
@@ -50,6 +55,7 @@ export const GlobalStyled = createGlobalStyle`
   }
 
   body {
+    position: relative;
     margin: 0;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -61,13 +67,26 @@ export const GlobalStyled = createGlobalStyle`
     font-size: 16px;
     font-weight: 400;
     line-height: 1.2;
-    background-image: url(${BgImage});
+    background-image: url(${bgImage});
     background-color: #090F1D;
     background-blend-mode: color-burn;
+    background-image: image-set(
+      url(${bgAvif}) type("image/avif") 1x,
+      url(${bgAvif2x}) type("image/avif") 2x,
+      url(${bgWebp}) type("image/webp") 1x,
+      url(${bgWebp2x}) type("image/webp") 2x);
+
+      @media (min-resolution: 2dppx) {
+        background-image: url(${bg2x});
+      }   
   }
 
   section {
     padding: 92px 0;
+
+    @media ${theme.media.tablet} {
+      padding: 40px 0;
+    }
   }
 
   ul {
@@ -80,4 +99,9 @@ export const GlobalStyled = createGlobalStyle`
     text-decoration: none;
   }
 
-  `
+  img {
+  max-width: 100%;
+  height: auto;
+  }
+
+`
