@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/project-creative-art/static/css/main.31d6cfe0.css",
-    "main.js": "/project-creative-art/static/js/main.31aed53f.js",
+    "main.js": "/project-creative-art/static/js/main.10eeaf82.js",
     "static/js/787.7375cc00.chunk.js": "/project-creative-art/static/js/787.7375cc00.chunk.js",
     "static/media/Bg@2x.png": "/project-creative-art/static/media/Bg@2x.6c41cb931e424e72abcf.png",
     "static/media/Bg.png": "/project-creative-art/static/media/Bg.a9cc589db44347fa3276.png",
@@ -9,13 +9,31 @@
     "static/media/Bg@2x.webp": "/project-creative-art/static/media/Bg@2x.2bf69f0c456e2d8268e5.webp",
     "static/media/hero@2x.png": "/project-creative-art/static/media/hero@2x.79ead745b8b76996636e.png",
     "static/media/Bg.avif": "/project-creative-art/static/media/Bg.02057158c5755abaf7eb.avif",
+    "static/media/surgeon@2x.png": "/project-creative-art/static/media/surgeon@2x.f2db93b19b9c85886f1c.png",
+    "static/media/cyberpunk@2x.png": "/project-creative-art/static/media/cyberpunk@2x.a164c26f4586ed755aea.png",
+    "static/media/charge@2x.png": "/project-creative-art/static/media/charge@2x.92788822b43f0075988d.png",
     "static/media/Bg@2x.avif": "/project-creative-art/static/media/Bg@2x.164cfbea0f60f0d38ca6.avif",
     "static/media/hero@1x.png": "/project-creative-art/static/media/hero@1x.f9bbe63c032fa823532b.png",
+    "static/media/surgeon@1x.png": "/project-creative-art/static/media/surgeon@1x.d63efe3cc8169c9e0e99.png",
     "static/media/hero@2x.webp": "/project-creative-art/static/media/hero@2x.4868c7beae6690bafbe2.webp",
+    "static/media/cyberpunk@1x.png": "/project-creative-art/static/media/cyberpunk@1x.a5457e09c905c24bf260.png",
+    "static/media/charge@1x.png": "/project-creative-art/static/media/charge@1x.6df893c1c72fb6dceef4.png",
+    "static/media/surgeon@2x.webp": "/project-creative-art/static/media/surgeon@2x.1e543e2ccab095fb435e.webp",
     "static/media/hero@2x.avif": "/project-creative-art/static/media/hero@2x.36da2745cd67581d9a3a.avif",
+    "static/media/cyberpunk@2x.webp": "/project-creative-art/static/media/cyberpunk@2x.1ed8fba5bb51216d0bd1.webp",
+    "static/media/charge@2x.webp": "/project-creative-art/static/media/charge@2x.9fbec3c85620d80c2f21.webp",
     "static/media/hero@1x.webp": "/project-creative-art/static/media/hero@1x.2f9a5da5d59cb88c7a69.webp",
+    "static/media/surgeon@2x.avif": "/project-creative-art/static/media/surgeon@2x.159adc480cf8be015cb7.avif",
+    "static/media/cyberpunk@2x.avif": "/project-creative-art/static/media/cyberpunk@2x.c8969e1172580c6ebd8a.avif",
+    "static/media/surgeon@1x.webp": "/project-creative-art/static/media/surgeon@1x.200236214b530abb7469.webp",
+    "static/media/charge@2x.avif": "/project-creative-art/static/media/charge@2x.a7000232cb9e2b014efd.avif",
     "static/media/hero@1x.avif": "/project-creative-art/static/media/hero@1x.9f3f5b460aa58a6d4a23.avif",
+    "static/media/charge@1x.webp": "/project-creative-art/static/media/charge@1x.67967a8b7885e3cc7dbb.webp",
+    "static/media/cyberpunk@1x.webp": "/project-creative-art/static/media/cyberpunk@1x.6e38298fa9cf6f72c61b.webp",
     "static/media/icons-sprite.svg": "/project-creative-art/static/media/icons-sprite.b6b6af9f9552770ffc25dea445f2d5d1.svg",
+    "static/media/surgeon@1x.avif": "/project-creative-art/static/media/surgeon@1x.b908c066b6c89de2b5c2.avif",
+    "static/media/cyberpunk@1x.avif": "/project-creative-art/static/media/cyberpunk@1x.655ba6c80c130c0b3ccc.avif",
+    "static/media/charge@1x.avif": "/project-creative-art/static/media/charge@1x.529c8c367ed85ff66b72.avif",
     "static/media/star@2x.avif": "/project-creative-art/static/media/star@2x.e792e00c7761dec6d597.avif",
     "static/media/star@2x.webp": "/project-creative-art/static/media/star@2x.9fae893aa1e170556be9.webp",
     "static/media/star@1x.avif": "/project-creative-art/static/media/star@1x.a5571d9e13dbfadd11c1.avif",
@@ -25,11 +43,11 @@
     "static/media/star-mobile@1x.avif": "/project-creative-art/static/media/star-mobile@1x.a2b4e16ac8b5f33c206e.avif",
     "static/media/star-mobile@1x.webp": "/project-creative-art/static/media/star-mobile@1x.132a4f88aa55a0e78428.webp",
     "index.html": "/project-creative-art/index.html",
-    "main.31aed53f.js.map": "/project-creative-art/static/js/main.31aed53f.js.map",
+    "main.10eeaf82.js.map": "/project-creative-art/static/js/main.10eeaf82.js.map",
     "787.7375cc00.chunk.js.map": "/project-creative-art/static/js/787.7375cc00.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.31aed53f.js"
+    "static/js/main.10eeaf82.js"
   ]
 }
