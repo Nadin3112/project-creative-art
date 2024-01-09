@@ -1,23 +1,17 @@
 import styled from 'styled-components';
 import { font } from '../../../styles/Common';
 import { theme } from '../../../styles/Theme';
-import { Container } from '../../../components/Container';
 import { Link } from '../../../components/Link';
 import { FlexWrapper } from '../../../components/FlexWrapper';
 
 const AmazingWeek = styled.section`
 
-@media ${theme.media.desktop} {
-    ${Container} {
-        padding: 0;
-    }
-}  
 `
 
 const GridWrapper = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 64px;
+    row-gap: 64px;
 
     ${Link} {
         justify-self: end;
@@ -33,13 +27,15 @@ const GridWrapper = styled.div`
     @media ${theme.media.tablet} {
         grid-template-columns: 1fr;
         gap: 32px;
+
     }
 `
 
 const WeekList = styled.ul`
     grid-column: 1/-1;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     gap: 30px;
     flex-wrap: wrap;
 
@@ -48,7 +44,6 @@ const WeekList = styled.ul`
     }
 `
 const Item = styled.li`
-    flex-grow: 1;
     border-radius: 28px;
     border-top: 1px solid ${theme.colors.accent};
     background: ${theme.colors.colorCard};

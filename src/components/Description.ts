@@ -4,6 +4,7 @@ import { theme } from "../styles/Theme";
 
 export const Description = styled.p`
   max-width: 536px;
+  width: auto;
   margin: 28px 0 42px;
   font-size: 16px;
   font-weight: 400;

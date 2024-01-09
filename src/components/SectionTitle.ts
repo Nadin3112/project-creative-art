@@ -4,7 +4,7 @@ import { font } from "../styles/Common"
 
 export const SectionTitle = styled.h2`
     ${font({family: "'Canela', serif", color: theme.colors.primaryFont, weight: 500, Fmax: 48, Fmin: 31 })};
-    max-width: 510px;
+    max-width: 540px;
     letter-spacing: 1.2px;
 
     span {
@@ -13,6 +13,7 @@ export const SectionTitle = styled.h2`
 
     @media ${theme.media.tablet} {
         margin: 0 auto;
+        width: auto;
         text-align: center;
     }
 
