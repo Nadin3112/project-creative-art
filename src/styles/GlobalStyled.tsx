@@ -28,12 +28,11 @@ export const GlobalStyled = createGlobalStyle`
   }
 
   @font-face {
-    font-family: "Canela";
+    font-family: "Spectral";
     font-style: normal;
     font-weight: 500;
-    src: url("../fonts/Canela-Medium.woff2") format("woff2");
-    src: url("../fonts/Canela-Medium.woff") format("woff");
-    src: url("../fonts/Canela-Medium.ttf") format("ttf");
+    src: url("../fonts/Spectral-Medium.woff2") format("woff2");
+    src: url("../fonts/Spectral-Medium.woff") format("woff");
     font-display: swap;
   }
 
