@@ -3,8 +3,7 @@ import { theme } from "../styles/Theme"
 import { font } from "../styles/Common"
 
 export const SectionTitle = styled.h2`
-    ${font({family: "'Canela', serif", color: theme.colors.primaryFont, weight: 500, Fmax: 48, Fmin: 31 })};
-    max-width: 540px;
+    ${font({family: "'Spectral', serif", color: theme.colors.primaryFont, weight: 500, Fmax: 48, Fmin: 31 })};
     letter-spacing: 1.2px;
 
     span {

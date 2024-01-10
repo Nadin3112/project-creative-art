@@ -55,7 +55,7 @@ const HeroTitle = styled.h1`
     margin: 0;
     max-width: 540px;
     letter-spacing: 1.2px;
-    ${font({ family: "'Canela', serif", color: theme.colors.primaryFont, weight: 500, Fmax: 64, Fmin: 39 })} 
+    ${font({ family: "'Spectral', serif", color: theme.colors.primaryFont, weight: 500, Fmax: 64, Fmin: 39 })} 
     
     span {
         color: ${theme.colors.accent};
@@ -158,7 +158,7 @@ const HeroItem = styled.li`
     }
 
     p {
-        ${font({family: "'Canela', serif", lineHeight: 0.8, color: theme.colors.accent, weight: 500, Fmax: 48, Fmin: 31 })};
+        ${font({family: "'Spectral', serif", lineHeight: 0.8, color: theme.colors.accent, weight: 500, Fmax: 48, Fmin: 31 })};
         margin-bottom: 16px;
         display: inline;
     }

@@ -22,7 +22,7 @@ const LogoLink = styled.a`
     position: absolute;
     top: 10px;
     left: 36px;
-    font-family: 'Canela', serif;
+    font-family: 'Spectral', serif;
     font-size: 32px;
     font-weight: 500;
     color: ${theme.colors.activeFont};
