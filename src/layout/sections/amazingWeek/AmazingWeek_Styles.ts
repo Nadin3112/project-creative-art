@@ -3,6 +3,7 @@ import { font } from '../../../styles/Common';
 import { theme } from '../../../styles/Theme';
 import { Link } from '../../../components/Link';
 import { FlexWrapper } from '../../../components/FlexWrapper';
+import { SectionTitle } from '../../../components/SectionTitle';
 
 const AmazingWeek = styled.section`
 
@@ -11,7 +12,13 @@ const AmazingWeek = styled.section`
 const GridWrapper = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 64px;
+    row-gap: 70px;
+
+    ${SectionTitle} {
+        display: block;
+        max-width: 560px;
+        width: auto;
+    }
 
     ${Link} {
         justify-self: end;
@@ -21,13 +28,12 @@ const GridWrapper = styled.div`
         grid-row: 3/4;
         justify-self: center;
         align-self: center;
-    }
+        }
     }
 
     @media ${theme.media.tablet} {
         grid-template-columns: 1fr;
         gap: 32px;
-
     }
 `
 
@@ -47,19 +53,24 @@ const Item = styled.li`
     border-radius: 28px;
     border-top: 1px solid ${theme.colors.accent};
     background: ${theme.colors.colorCard};
-    padding: 20px;
+    padding: 20px 20px 4px;
 
     ${FlexWrapper} {
         height: auto;
-        margin-top: 16px;
+        margin-bottom: 16px;
+
+        ${FlexWrapper} {
+            margin-bottom: 0;
+        }
     }
 
     ${Link} {
         width: 172px;
+        align-self: flex-start;
     }
 
     @media ${theme.media.mobile} {
-        padding: 16px;
+        padding: 16px 16px 0;
     }
 `
 

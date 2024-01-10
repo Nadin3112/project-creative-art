@@ -12,7 +12,7 @@ const Best = styled.section`
         gap: 36px;
         height: auto;
 
-        @media ${theme.media.tablet} {
+        @media ${theme.media.desktopMax} {
             justify-content: center;
         }
     }
@@ -33,6 +33,11 @@ const BestTextWrapper = styled.div`
     ${SectionTitle} {
         max-width: 420px;
         width: 100%; 
+
+        @media ${theme.media.mobile} {
+            max-width: 250px;
+            padding-left: 0;
+        }
     }
 `
 
