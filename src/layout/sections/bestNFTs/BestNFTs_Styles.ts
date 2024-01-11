@@ -19,11 +19,6 @@ const Best = styled.section`
 `
 
 const BestTextWrapper = styled.div`
-    padding: 140px 0;
-
-    @media ${theme.media.tablet} {
-        padding: 0;
-    }
 
     ${Description} {
         max-width: 430px;

@@ -104,6 +104,7 @@ const OwnerWrapper = styled.div`
     display: flex;
     flex-direction: column; 
     justify-content: space-between;
+    gap: 4px;
 
     span {
         font-size: 14px;

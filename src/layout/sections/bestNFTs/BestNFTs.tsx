@@ -40,11 +40,11 @@ const nftsData = [
     }
 ]
 
-export const Best = () => {
+export const Best:React.FC = () => {
     return (
         <S.Best>
             <Container>
-                <FlexWrapper justify={"space-between"} wrap={"wrap"}>
+                <FlexWrapper justify={"space-between"} wrap={"wrap"} align={"center"}>
                     <S.BestTextWrapper>
                         <SectionTitle>Create And Sell Your <span>Best NFTs</span></SectionTitle>
                         <Description>Start exploring the world of digital art and NFTs today and take control of your digital assets with confidence!</Description>
