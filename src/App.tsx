@@ -4,6 +4,7 @@ import { Hero } from './layout/sections/hero/Hero';
 import { AmazingWeek } from './layout/sections/amazingWeek/AmazingWeek';
 import { Best } from './layout/sections/bestNFTs/BestNFTs';
 import { Artists } from './layout/sections/artists/Artists';
+import { Subscription } from './layout/sections/subscription/Subscription';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
             <AmazingWeek/> 
             <Best/>
             <Artists/>
+            <Subscription/>
         </div>
     );
 }
