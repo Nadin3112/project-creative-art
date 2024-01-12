@@ -11,7 +11,7 @@ const socialItemsData = [
     { iconId: "facebook", ariaLabel: "facebook", href: "#", width: "25", height: "24", viewBox: "0 0 25 24" },
     { iconId: "telegram", ariaLabel: "telegram", href: "#", width: "25", height: "24", viewBox: "0 0 25 24" },
     { iconId: "twitter", ariaLabel: "twitter", href: "#", width: "25", height: "24", viewBox: "0 0 25 24" },
-    { iconId: "instagram", ariaLabel: "instagram", href: "#", width: "25", height: "24", viewBox: "0 0 25 24" }
+    { iconId: "linkedin", ariaLabel: "linkedin", href: "#", width: "25", height: "24", viewBox: "0 0 25 24" }
 ]
 
 export const Footer: React.FC = () => {
