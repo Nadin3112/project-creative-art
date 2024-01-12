@@ -195,7 +195,7 @@ export const Artists:React.FC = () => {
         <Container>
                 <S.ArtistsGridWrapper>
                     <SectionTitle>Popular <span>Artists</span> On This Week</SectionTitle>
-                    <Link linkType="primary" color={theme.colors.primaryLink} backgroundColor={theme.colors.accent} tabIndex={0}>See All</Link>
+                    <Link linkType="primary" color={theme.colors.primaryLink} backgroundColor={theme.colors.accent} tabIndex={0} href={"#"}>See All</Link>
                     <S.ArtistList>
                     {artistsData.map((a, index) => {
                             return <Artist 

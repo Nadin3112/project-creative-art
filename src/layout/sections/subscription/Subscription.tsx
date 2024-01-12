@@ -58,7 +58,7 @@ export const Subscription: React.FC = () => {
                         <Description>We have a blog related to NFT so we can share thoughts and routines on our blog which is updated weekly</Description>
                         <S.Form>
                             <S.Field type={"email"} placeholder={"Enter your e-mail"} />
-                            <Link linkType="primary" color={theme.colors.primaryLink} backgroundColor={theme.colors.accent} tabIndex={0}>Subscribe</Link>
+                            <Link linkType="primary" color={theme.colors.primaryLink} backgroundColor={theme.colors.accent} tabIndex={0} href={"#"}>Subscribe</Link>
                         </S.Form>
                     </S.SubscriptionTextWrapper>
                 </FlexWrapper>

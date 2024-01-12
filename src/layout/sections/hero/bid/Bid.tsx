@@ -17,7 +17,7 @@ export const Bid: React.FC = () => {
                     <S.TimeBid>0.24ETH</S.TimeBid>
                 </FlexWrapper>
             </FlexWrapper>
-            <Link linkType="outlined" color={theme.colors.accent} tabIndex={0}>Place A Bid</Link>
+            <Link linkType="outlined" color={theme.colors.accent} tabIndex={0} href={"#"}>Place A Bid</Link>
         </S.BidWrapper>
     );
 };

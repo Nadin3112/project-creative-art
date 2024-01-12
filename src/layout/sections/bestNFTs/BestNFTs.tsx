@@ -49,8 +49,8 @@ export const Best:React.FC = () => {
                         <SectionTitle>Create And Sell Your <span>Best NFTs</span></SectionTitle>
                         <Description>Start exploring the world of digital art and NFTs today and take control of your digital assets with confidence!</Description>
                         <FlexWrapper align={"flex-start"}>
-                            <Link linkType="primary" color={theme.colors.primaryLink} backgroundColor={theme.colors.accent} tabIndex={0}>Create Now</Link>
-                            <Link linkType="secondary" tabIndex={0}>Learn More</Link>
+                            <Link linkType="primary" color={theme.colors.primaryLink} backgroundColor={theme.colors.accent} tabIndex={0} href={"#"}>Create Now</Link>
+                            <Link linkType="secondary" tabIndex={0} href={"#"}>Learn More</Link>
                         </FlexWrapper>
                     </S.BestTextWrapper>
                     <S.BestPhotoWrapper>

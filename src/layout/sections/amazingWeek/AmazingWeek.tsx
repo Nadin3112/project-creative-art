@@ -62,7 +62,7 @@ export const AmazingWeek: React.FC = () => {
             <Container>
                 <S.GridWrapper>
                     <SectionTitle><span>Amazing</span> and Super Unique Art of This <span>Week</span></SectionTitle>
-                    <Link linkType="primary" color={theme.colors.primaryLink} backgroundColor={theme.colors.accent} tabIndex={0}>See All</Link>
+                    <Link linkType="primary" color={theme.colors.primaryLink} backgroundColor={theme.colors.accent} tabIndex={0} href={"#"}>See All</Link>
                     <S.WeekList>
                         {cardsData.map((c, index) => {
                             return <WeekItem title={c.title} srcSetAvif={c.srcSetAvif} src={c.src} srcSet={c.srcSet} srcSetWebp={c.srcSetWebp} bid={c.bid} clock={c.clock} key={index} />
