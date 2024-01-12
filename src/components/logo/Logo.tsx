@@ -17,6 +17,20 @@ const LogoLink = styled.a`
   align-items: center;
   min-width: 196px;
   position: relative;
+  transition: ${theme.animations.transition};
+  color: ${theme.colors.accent};
+
+  &:hover {
+    color: ${theme.colors.activeFont};
+    
+    p {
+      color: ${theme.colors.accent};
+    }
+
+    span {
+      color: ${theme.colors.activeFont};
+    }
+  }
 
   p {
     position: absolute;
