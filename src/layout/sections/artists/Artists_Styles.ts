@@ -13,7 +13,7 @@ const ArtistsGridWrapper = styled.div`
 
     ${SectionTitle} {
         padding-left: 30px;
-        max-width: 350px;
+        max-width: 400px;
         width: 100%; 
 
         @media ${theme.media.mobile} {

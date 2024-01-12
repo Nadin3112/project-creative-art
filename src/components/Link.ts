@@ -23,11 +23,21 @@ export const Link = styled.a<StyledLinkPropsType>`
     ${props => props.linkType === "primary" && css<StyledLinkPropsType>`
         color: ${props => props.color};
         background-color: ${props => props.backgroundColor};
+
+        &:hover {
+            color: ${theme.colors.accent};
+            background-color: transparent;
+        }
     `}
         
     ${props => props.linkType === "outlined" && css<StyledLinkPropsType>`
         color: ${props => props.color};
         background-color: transparent;
+
+        &:hover {
+            color: ${theme.colors.primaryLink};
+            background-color: ${theme.colors.accent};
+        }
     `}
 
     ${props => props.linkType === "secondary" && css<StyledLinkPropsType>`
@@ -36,5 +46,9 @@ export const Link = styled.a<StyledLinkPropsType>`
         border: none;
         border-radius: none;
         padding: 12px 0;
+
+        &:hover {
+            color: ${theme.colors.accent};
+        }
     `}
 `

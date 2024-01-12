@@ -16,8 +16,12 @@ const GridWrapper = styled.div`
 
     ${SectionTitle} {
         display: block;
-        max-width: 560px;
+        max-width: 600px;
         width: auto;
+
+        @media ${theme.media.desktopMax} {
+            
+        }
     }
 
     ${Link} {
@@ -65,7 +69,7 @@ const Item = styled.li`
     }
 
     ${Link} {
-        width: 172px;
+        width: 176px;
         align-self: flex-start;
     }
 
