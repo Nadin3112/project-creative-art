@@ -91,6 +91,7 @@ const Form = styled.form`
     align-items: center;
     justify-content: space-between;
     background: ${theme.colors.colorCard};
+    border-radius: 8px;
 
     @media ${theme.media.tablet} {
         flex-direction: column;
