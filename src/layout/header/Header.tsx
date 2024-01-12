@@ -26,7 +26,7 @@ export const Header: React.FC = () => {
         <FlexWrapper justify={"space-between"} align={"center"}>
           <Logo />
           {width<breakpoint ? <MobileMenu /> : <DesktopMenu />}
-          <Link linkType="primary" color={theme.colors.primaryLink} backgroundColor={theme.colors.accent} tabIndex={0}>Contact</Link>
+          <Link linkType="primary" color={theme.colors.primaryLink} backgroundColor={theme.colors.accent} tabIndex={0} href={"#"}>Contact</Link>
         </FlexWrapper>
       </Container>
     </S.Header>
