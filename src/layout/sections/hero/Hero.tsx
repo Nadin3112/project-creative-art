@@ -30,7 +30,7 @@ export const Hero: React.FC = () => {
                         <Description>Get started with the easiest and most secure platform to buy and trade digital ART and NFT’s. Start exploring the world of digital art and NFTs today and take control of your digital assets with confidence!</Description>
                         <FlexWrapper align={"flex-start"}>
                             <Link linkType="primary" color={theme.colors.primaryLink} backgroundColor={theme.colors.accent} tabIndex={0} href={"#"}>Explore Now</Link>
-                            <Link linkType="secondary" tabIndex={0} href={"#"}>Learn More</Link>
+                            <Link linkType="secondary" color={theme.colors.primaryFont} tabIndex={0} href={"#"}>Learn More</Link>
                         </FlexWrapper>
                     </S.HeroWrapperText>
                     <S.PhotoWrapper>
