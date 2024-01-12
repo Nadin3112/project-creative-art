@@ -39,7 +39,7 @@ export const WeekItem: React.FC<WeekItemPropsType> = (props: WeekItemPropsType) 
                         {props.clock}
                     </S.Clock>
                 </FlexWrapper>
-                <Link linkType="outlined" color={theme.colors.accent}>Place A Bid</Link>
+                <Link linkType="outlined" color={theme.colors.accent} tabIndex={0}>Place A Bid</Link>
             </FlexWrapper>
         </S.Item>
     );

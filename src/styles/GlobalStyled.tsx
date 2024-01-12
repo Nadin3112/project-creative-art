@@ -104,4 +104,5 @@ export const GlobalStyled = createGlobalStyle`
   height: auto;
   }
 
+
 `
