@@ -2,7 +2,7 @@ import React from 'react';
 import { theme } from '../../../styles/Theme';
 import { Container } from '../../../components/Container';
 import { SectionTitle } from '../../../components/SectionTitle';
-import { LinkButton } from '../../../components/Link';
+import { LinkButton } from '../../../components/LinkButton';
 import { Artist } from './artist/Artist';
 import { S } from './Artists_Styles';
 
@@ -191,7 +191,7 @@ const artistsData = [
 
 export const Artists:React.FC = () => {
     return (
-        <S.Artists id={"artists"}>
+        <S.Artists>
         <Container>
                 <S.ArtistsGridWrapper>
                     <SectionTitle>Popular <span>Artists</span> On This Week</SectionTitle>

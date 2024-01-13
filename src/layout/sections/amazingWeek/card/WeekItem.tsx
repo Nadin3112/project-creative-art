@@ -1,7 +1,7 @@
 import React from 'react';
 import { FlexWrapper } from '../../../../components/FlexWrapper';
 import { theme } from '../../../../styles/Theme';
-import { LinkButton } from '../../../../components/Link';
+import { LinkButton } from '../../../../components/LinkButton';
 import { Icon } from '../../../../components/icon/Icon';
 import { S } from '../AmazingWeek_Styles';
 

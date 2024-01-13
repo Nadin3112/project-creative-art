@@ -1,6 +1,6 @@
 import React from 'react';
 import { SectionTitle } from '../../../components/SectionTitle';
-import { LinkButton } from '../../../components/Link';
+import { LinkButton } from '../../../components/LinkButton';
 import { theme } from '../../../styles/Theme';
 import { Container } from '../../../components/Container';
 import { WeekItem } from './card/WeekItem';
@@ -58,7 +58,7 @@ const cardsData = [
 
 export const AmazingWeek: React.FC = () => {
     return (
-        <S.AmazingWeek id={"collections"}>
+        <S.AmazingWeek>
             <Container>
                 <S.GridWrapper>
                     <SectionTitle><span>Amazing</span> and Super Unique Art of This <span>Week</span></SectionTitle>

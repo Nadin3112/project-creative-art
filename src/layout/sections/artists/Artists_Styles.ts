@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { SectionTitle } from '../../../components/SectionTitle';
-import { LinkButton } from '../../../components/Link';
+import { LinkButton } from '../../../components/LinkButton';
 import { FlexWrapper } from '../../../components/FlexWrapper';
 import { theme } from '../../../styles/Theme';
 

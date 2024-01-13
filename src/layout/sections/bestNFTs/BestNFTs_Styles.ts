@@ -18,6 +18,7 @@ const Best = styled.section`
         content: "";
         background-color: ${theme.colors.filterBg};
         filter: blur(175px);
+        background-size: cover;
     }
 
     ${FlexWrapper} {

@@ -3,7 +3,7 @@ import { Container } from '../../../components/Container';
 import { FlexWrapper } from '../../../components/FlexWrapper';
 import { SectionTitle } from '../../../components/SectionTitle';
 import { Description } from '../../../components/Description';
-import { LinkButton } from '../../../components/Link';
+import { LinkButton } from '../../../components/LinkButton';
 import { theme } from '../../../styles/Theme';
 
 import subscribe1 from '../../../assets/images/subscribe/subscribe-1@1x.png';
@@ -45,7 +45,7 @@ const subscriptionsData = [
 
 export const Subscription: React.FC = () => {
     return (
-        <S.Subscription id={"community"}>
+        <S.Subscription>
             <Container>
                 <FlexWrapper justify={"space-between"} wrap={"wrap"} align={"center"}>
                     <S.SubscriptionPhotoWrapper>

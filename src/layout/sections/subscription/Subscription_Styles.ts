@@ -14,7 +14,8 @@ const Subscription = styled.section`
         width: 513px;
         height: 358px;
         content: "";
-        
+        background-color: ${theme.colors.filterBg};
+        background-size: cover;
         filter: blur(175px);
     }
 
@@ -26,6 +27,7 @@ const Subscription = styled.section`
         height: 93px;
         content: "";
         background-color: ${theme.colors.filterSubscription};
+        background-size: cover;
         filter: blur(125px);
     }
 

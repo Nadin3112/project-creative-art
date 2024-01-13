@@ -5,7 +5,7 @@ import { Container } from '../../components/Container';
 import { FlexWrapper } from '../../components/FlexWrapper';
 import { MobileMenu } from './headerMenu/mobileMenu/MobileMenu';
 import { S } from './Header_Styles';
-import { LinkButton } from '../../components/Link';
+import { LinkButton } from '../../components/LinkButton';
 import { theme } from '../../styles/Theme';
 
 

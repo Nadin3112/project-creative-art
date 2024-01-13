@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from '../../../components/Container';
 import { FlexWrapper } from '../../../components/FlexWrapper';
 import { Description } from '../../../components/Description';
-import { LinkButton } from '../../../components/Link';
+import { LinkButton } from '../../../components/LinkButton';
 import { theme } from '../../../styles/Theme';
 import { Item } from './item/HeroItem';
 import photo from '../../../assets/images/hero/hero@1x.png';
@@ -22,7 +22,7 @@ const itemsData = [
 
 export const Hero: React.FC = () => {
     return (
-        <S.Hero id={"marketplace"}>
+        <S.Hero>
             <Container>
                 <S.GridWrapper>
                     <S.HeroWrapperText>

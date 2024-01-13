@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { font } from '../../../styles/Common';
 import { theme } from '../../../styles/Theme';
-import { LinkButton } from '../../../components/Link';
+import { LinkButton } from '../../../components/LinkButton';
 import { FlexWrapper } from '../../../components/FlexWrapper';
 import { SectionTitle } from '../../../components/SectionTitle';
 
@@ -17,6 +17,7 @@ const AmazingWeek = styled.section`
         content: "";
         background-color: ${theme.colors.filterBg};
         filter: blur(175px);
+        background-size: cover;
     }
 `
 

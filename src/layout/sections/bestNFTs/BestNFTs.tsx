@@ -2,7 +2,7 @@ import React from 'react';
 import { FlexWrapper } from '../../../components/FlexWrapper';
 import { Container } from '../../../components/Container';
 import { SectionTitle } from '../../../components/SectionTitle';
-import { LinkButton } from '../../../components/Link';
+import { LinkButton } from '../../../components/LinkButton';
 import { theme } from '../../../styles/Theme';
 import { NFT } from './nft/NFT';
 import { Description } from '../../../components/Description';

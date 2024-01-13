@@ -55,6 +55,8 @@ export const GlobalStyled = createGlobalStyle`
 
   body {
     position: relative;
+    display: flex;
+    flex-direction: column;
     margin: 0;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -70,6 +72,7 @@ export const GlobalStyled = createGlobalStyle`
     background-image: url(${bgImage});
     background-color: #090F1D;
     background-blend-mode: color-burn;
+    flex-shrink: 0;
     background-image: image-set(
       url(${bgAvif}) type("image/avif") 1x,
       url(${bgAvif2x}) type("image/avif") 2x,
@@ -80,27 +83,19 @@ export const GlobalStyled = createGlobalStyle`
         background-image: url(${bg2x});
       }
       
-    /*&::before {
+    &::before {
       position: absolute;
-      left: 550px;
-      bottom: 206px;
+      top: 353px;
       width: 631px;
       height: 458px;
       content: "";
       background-color: ${theme.colors.filterBg};
+      background-size: cover;
+      align-self: center;
+      flex-shrink: 0;
       filter: blur(200px);
+      z-index: -1;
     }
-
-    &::after {
-        position: absolute;
-        left: 151px;
-        bottom: 25px;
-        width: 352px;
-        height: 221px;
-        content: "";
-        background-color: ${theme.colors.filterSubscription};
-        filter: blur(125px);
-    }*/
   }
 
   section {

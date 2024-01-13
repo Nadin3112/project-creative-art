@@ -1,5 +1,5 @@
 import React from 'react';
-import { LinkButton } from '../../../../components/Link';
+import { LinkButton } from '../../../../components/LinkButton';
 import { theme } from '../../../../styles/Theme';
 import { FlexWrapper } from '../../../../components/FlexWrapper';
 import { S } from '../Hero_Styles';

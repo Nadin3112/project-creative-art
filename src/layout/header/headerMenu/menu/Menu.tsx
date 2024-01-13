@@ -1,28 +1,25 @@
 import React from 'react';
 import { S } from '../HeaderMenu_Styles';
 
-const items = [
+const navs = [
   { title: "Marketplace",
-    href: "marketplace"},
+    href: "#"},
   { title: "Artists",
-    href: "artists"},
+    href: "#"},
   { title: "Community",
-    href: "community"},
+    href: "#"},
   { title: "Collections",
-    href: "collections"}
+    href: "#"}
 ]
 
 export const Menu: React.FC = () => {
   return (
     <ul>
-      {items.map((item, index) => {
+      {navs.map((navItem, index) => {
         return <S.MenuItem key={index}>
           <S.NavLink
-                      to={item.href}
-                      activeClass="active"
-                      smooth={true}
-                      spy={true}>
-                      {item.title}
+                      href={navItem.href}>
+                      {navItem.title}
           </S.NavLink>
         </S.MenuItem>
       })}

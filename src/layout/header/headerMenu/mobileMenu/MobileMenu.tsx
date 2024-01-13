@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Menu } from '../menu/Menu';
 import { S } from '../HeaderMenu_Styles';
-import { LinkButton } from '../../../../components/Link'
+import { LinkButton } from '../../../../components/LinkButton'
 import { theme } from './../../../../styles/Theme';
 import { FlexWrapper } from '../../../../components/FlexWrapper';
 
