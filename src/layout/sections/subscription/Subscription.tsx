@@ -3,7 +3,7 @@ import { Container } from '../../../components/Container';
 import { FlexWrapper } from '../../../components/FlexWrapper';
 import { SectionTitle } from '../../../components/SectionTitle';
 import { Description } from '../../../components/Description';
-import { Link } from '../../../components/Link';
+import { LinkButton } from '../../../components/Link';
 import { theme } from '../../../styles/Theme';
 
 import subscribe1 from '../../../assets/images/subscribe/subscribe-1@1x.png';
@@ -45,7 +45,7 @@ const subscriptionsData = [
 
 export const Subscription: React.FC = () => {
     return (
-        <S.Subscription>
+        <S.Subscription id={"community"}>
             <Container>
                 <FlexWrapper justify={"space-between"} wrap={"wrap"} align={"center"}>
                     <S.SubscriptionPhotoWrapper>
@@ -58,7 +58,7 @@ export const Subscription: React.FC = () => {
                         <Description>We have a blog related to NFT so we can share thoughts and routines on our blog which is updated weekly</Description>
                         <S.Form>
                             <S.Field type={"email"} placeholder={"Enter your e-mail"} />
-                            <Link linkType="primary" color={theme.colors.primaryLink} backgroundColor={theme.colors.accent} tabIndex={0} href={"#"}>Subscribe</Link>
+                            <LinkButton linkType="primary" color={theme.colors.primaryLink} backgroundColor={theme.colors.accent} tabIndex={0} href={"#"}>Subscribe</LinkButton>
                         </S.Form>
                     </S.SubscriptionTextWrapper>
                 </FlexWrapper>

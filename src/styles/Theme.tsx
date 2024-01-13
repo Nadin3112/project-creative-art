@@ -6,7 +6,9 @@ export const theme = {
     secondaryFont: "#838382",
     accent: "#d3f85a",
     colorCard: "#131e3a",
-    placeholderColor: "rgba(255, 255, 253, 0.72)"
+    placeholderColor: "rgba(255, 255, 253, 0.72)",
+    filterBg: "#1f413d",
+    filterSubscription: "#1a2652"
   },
 
   media: {

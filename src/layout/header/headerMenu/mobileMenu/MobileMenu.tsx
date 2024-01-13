@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Menu } from '../menu/Menu';
 import { S } from '../HeaderMenu_Styles';
-import { Link } from '../../../../components/Link'
+import { LinkButton } from '../../../../components/Link'
 import { theme } from './../../../../styles/Theme';
 import { FlexWrapper } from '../../../../components/FlexWrapper';
 
@@ -14,7 +14,7 @@ export const MobileMenu: React.FC = () => {
       <S.MobileMenuPopup isOpen={menuIsOpen} onClick={() => { setMenuIsOpen(false) }}>
         <FlexWrapper direction={"column"} justify={"center"}>
           <Menu />
-          <Link linkType="primary" color={theme.colors.primaryLink} backgroundColor={theme.colors.accent}>Contact</Link>
+          <LinkButton linkType="primary" color={theme.colors.primaryLink} backgroundColor={theme.colors.accent}>Contact</LinkButton>
         </FlexWrapper>
       </S.MobileMenuPopup>
     </S.MobileMenu>

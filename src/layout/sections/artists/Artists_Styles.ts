@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { SectionTitle } from '../../../components/SectionTitle';
-import { Link } from '../../../components/Link';
+import { LinkButton } from '../../../components/Link';
 import { FlexWrapper } from '../../../components/FlexWrapper';
 import { theme } from '../../../styles/Theme';
 
@@ -22,7 +22,7 @@ const ArtistsGridWrapper = styled.div`
         }
     }
 
-    ${Link} {
+    ${LinkButton} {
         margin-right: 30px;
         justify-self: end;
         align-self: center;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { SectionTitle } from '../../../components/SectionTitle';
-import { Link } from '../../../components/Link';
+import { LinkButton } from '../../../components/Link';
 import { theme } from '../../../styles/Theme';
 import { Container } from '../../../components/Container';
 import { WeekItem } from './card/WeekItem';
@@ -58,11 +58,11 @@ const cardsData = [
 
 export const AmazingWeek: React.FC = () => {
     return (
-        <S.AmazingWeek>
+        <S.AmazingWeek id={"collections"}>
             <Container>
                 <S.GridWrapper>
                     <SectionTitle><span>Amazing</span> and Super Unique Art of This <span>Week</span></SectionTitle>
-                    <Link linkType="primary" color={theme.colors.primaryLink} backgroundColor={theme.colors.accent} tabIndex={0} href={"#"}>See All</Link>
+                    <LinkButton linkType="primary" color={theme.colors.primaryLink} backgroundColor={theme.colors.accent} tabIndex={0} href={"#"}>See All</LinkButton>
                     <S.WeekList>
                         {cardsData.map((c, index) => {
                             return <WeekItem title={c.title} srcSetAvif={c.srcSetAvif} src={c.src} srcSet={c.srcSet} srcSetWebp={c.srcSetWebp} bid={c.bid} clock={c.clock} key={index} />

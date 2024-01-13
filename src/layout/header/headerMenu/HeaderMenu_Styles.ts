@@ -1,7 +1,8 @@
 import styled, {css} from 'styled-components';
 import {theme } from "../../../styles/Theme";
-import { Link } from '../../../components/Link';
+import { LinkButton } from '../../../components/Link';
 import { FlexWrapper } from '../../../components/FlexWrapper';
+import { Link } from 'react-scroll';
 
 //Menu
 
@@ -9,17 +10,18 @@ const MenuItem = styled.li`
   padding: 11px 0;
 `
 
-const NavLink = styled.a`
+const NavLink = styled(Link)`
   font-size: 16px;
   line-height: 1.6;
   color: ${theme.colors.placeholderColor};
   letter-spacing: 0.6px;
 
   &:hover,
-  &:active {
+  &.active {
     color: ${theme.colors.activeFont};
     border-bottom: 1px solid ${theme.colors.accent};
   }
+
 `
 
 //MobileMenu
@@ -28,7 +30,7 @@ const MobileMenu = styled.nav`
     gap: 40px;
   }
 
-  ${Link} {
+  ${LinkButton} {
     display: block;
   }
 `

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { FlexWrapper } from '../../../components/FlexWrapper';
 import { font } from '../../../assets/images/hero/Common';
 import { theme } from '../../../styles/Theme';
-import { Link } from '../../../components/Link';
+import { LinkButton } from '../../../components/Link';
 import starDesktop from '../../../assets/images/hero/star@1x.png';
 import starDesktop2x from '../../../assets/images/hero/star@2x.png';
 import starDesktopWebp from '../../../assets/images/hero/star@1x.webp';
@@ -195,7 +195,7 @@ const BidWrapper = styled.div`
         }
     }
 
-    ${Link} {
+    ${LinkButton} {
         margin-top: 24px;
 
         @media ${theme.media.tablet} {

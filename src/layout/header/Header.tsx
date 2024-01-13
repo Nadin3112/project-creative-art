@@ -5,7 +5,7 @@ import { Container } from '../../components/Container';
 import { FlexWrapper } from '../../components/FlexWrapper';
 import { MobileMenu } from './headerMenu/mobileMenu/MobileMenu';
 import { S } from './Header_Styles';
-import { Link } from '../../components/Link';
+import { LinkButton } from '../../components/Link';
 import { theme } from '../../styles/Theme';
 
 
@@ -26,7 +26,7 @@ export const Header: React.FC = () => {
         <FlexWrapper justify={"space-between"} align={"center"}>
           <Logo />
           {width<breakpoint ? <MobileMenu /> : <DesktopMenu />}
-          <Link linkType="primary" color={theme.colors.primaryLink} backgroundColor={theme.colors.accent} tabIndex={0} href={"#"}>Contact</Link>
+          <LinkButton linkType="primary" color={theme.colors.primaryLink} backgroundColor={theme.colors.accent} tabIndex={0} href={"#"}>Contact</LinkButton>
         </FlexWrapper>
       </Container>
     </S.Header>

@@ -2,7 +2,7 @@ import React from 'react';
 import { theme } from '../../../styles/Theme';
 import { Container } from '../../../components/Container';
 import { SectionTitle } from '../../../components/SectionTitle';
-import { Link } from '../../../components/Link';
+import { LinkButton } from '../../../components/Link';
 import { Artist } from './artist/Artist';
 import { S } from './Artists_Styles';
 
@@ -191,11 +191,11 @@ const artistsData = [
 
 export const Artists:React.FC = () => {
     return (
-        <S.Artists>
+        <S.Artists id={"artists"}>
         <Container>
                 <S.ArtistsGridWrapper>
                     <SectionTitle>Popular <span>Artists</span> On This Week</SectionTitle>
-                    <Link linkType="primary" color={theme.colors.primaryLink} backgroundColor={theme.colors.accent} tabIndex={0} href={"#"}>See All</Link>
+                    <LinkButton linkType="primary" color={theme.colors.primaryLink} backgroundColor={theme.colors.accent} tabIndex={0} href={"#"}>See All</LinkButton>
                     <S.ArtistList>
                     {artistsData.map((a, index) => {
                             return <Artist 

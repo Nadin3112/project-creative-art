@@ -7,6 +7,18 @@ import { FlexWrapper } from '../../../components/FlexWrapper';
 
 
 const Best = styled.section`
+    position: relative;
+
+    &::before {
+        position: absolute;
+        right: 95px;
+        bottom: 45px;
+        width: 346px;
+        height: 128px;
+        content: "";
+        background-color: ${theme.colors.filterBg};
+        filter: blur(175px);
+    }
 
     ${FlexWrapper} {
         gap: 36px;

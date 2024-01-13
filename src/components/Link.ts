@@ -7,7 +7,7 @@ type StyledLinkPropsType = {
     linkType: "primary" | "outlined" | "secondary"
 }
 
-export const Link = styled.a<StyledLinkPropsType>`
+export const LinkButton = styled.a<StyledLinkPropsType>`
     display: flex;
     justify-content: center;
     align-items: center;

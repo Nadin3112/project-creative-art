@@ -2,10 +2,11 @@ import React from 'react';
 import { Icon } from '../icon/Icon';
 import styled from 'styled-components';
 import { theme } from '../../styles/Theme';
+import { animateScroll as scroll } from 'react-scroll';
 
 export const Logo: React.FC = () => {
   return (
-    <LogoLink aria-label="logo vebsite" href={"index.html"} >
+    <LogoLink onClick={()=>{scroll.scrollToTop()}} aria-label="logo vebsite" href={"index.html"} >
       <Icon role="img" iconId={"logo"} width={"28"} height={"28"} viewBox={"0 0 28 28"} />
       <p>Creative<span>art</span></p>
     </LogoLink>

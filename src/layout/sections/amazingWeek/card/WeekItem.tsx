@@ -1,7 +1,7 @@
 import React from 'react';
 import { FlexWrapper } from '../../../../components/FlexWrapper';
 import { theme } from '../../../../styles/Theme';
-import { Link } from '../../../../components/Link';
+import { LinkButton } from '../../../../components/Link';
 import { Icon } from '../../../../components/icon/Icon';
 import { S } from '../AmazingWeek_Styles';
 
@@ -39,7 +39,7 @@ export const WeekItem: React.FC<WeekItemPropsType> = (props: WeekItemPropsType) 
                         {props.clock}
                     </S.Clock>
                 </FlexWrapper>
-                <Link linkType="outlined" color={theme.colors.accent} tabIndex={0} href={"#"}>Place A Bid</Link>
+                <LinkButton linkType="outlined" color={theme.colors.accent} tabIndex={0} href={"#"}>Place A Bid</LinkButton>
             </FlexWrapper>
         </S.Item>
     );

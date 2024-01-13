@@ -1,12 +1,23 @@
 import styled from 'styled-components';
 import { font } from '../../../styles/Common';
 import { theme } from '../../../styles/Theme';
-import { Link } from '../../../components/Link';
+import { LinkButton } from '../../../components/Link';
 import { FlexWrapper } from '../../../components/FlexWrapper';
 import { SectionTitle } from '../../../components/SectionTitle';
 
 const AmazingWeek = styled.section`
+    position: relative;
 
+    &::before {
+        position: absolute;
+        right: -55px;
+        bottom: -43px;
+        width: 434px;
+        height: 305px;
+        content: "";
+        background-color: ${theme.colors.filterBg};
+        filter: blur(175px);
+    }
 `
 
 const GridWrapper = styled.div`
@@ -24,7 +35,7 @@ const GridWrapper = styled.div`
         }
     }
 
-    ${Link} {
+    ${LinkButton} {
         justify-self: end;
         align-self: end;
 
@@ -68,7 +79,7 @@ const Item = styled.li`
         }
     }
 
-    ${Link} {
+    ${LinkButton} {
         width: 176px;
         align-self: flex-start;
     }

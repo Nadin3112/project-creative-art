@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from '../../../components/Container';
 import { FlexWrapper } from '../../../components/FlexWrapper';
 import { Description } from '../../../components/Description';
-import { Link } from '../../../components/Link';
+import { LinkButton } from '../../../components/Link';
 import { theme } from '../../../styles/Theme';
 import { Item } from './item/HeroItem';
 import photo from '../../../assets/images/hero/hero@1x.png';
@@ -22,15 +22,15 @@ const itemsData = [
 
 export const Hero: React.FC = () => {
     return (
-        <S.Hero>
+        <S.Hero id={"marketplace"}>
             <Container>
                 <S.GridWrapper>
                     <S.HeroWrapperText>
                         <S.HeroTitle>Discover and Collect The Best NFTs <span>Digital Art.</span></S.HeroTitle>
                         <Description>Get started with the easiest and most secure platform to buy and trade digital ART and NFT’s. Start exploring the world of digital art and NFTs today and take control of your digital assets with confidence!</Description>
                         <FlexWrapper align={"flex-start"}>
-                            <Link linkType="primary" color={theme.colors.primaryLink} backgroundColor={theme.colors.accent} tabIndex={0} href={"#"}>Explore Now</Link>
-                            <Link linkType="secondary" color={theme.colors.primaryFont} tabIndex={0} href={"#"}>Learn More</Link>
+                            <LinkButton linkType="primary" color={theme.colors.primaryLink} backgroundColor={theme.colors.accent} tabIndex={0} href={"#"}>Explore Now</LinkButton>
+                            <LinkButton linkType="secondary" color={theme.colors.primaryFont} tabIndex={0} href={"#"}>Learn More</LinkButton>
                         </FlexWrapper>
                     </S.HeroWrapperText>
                     <S.PhotoWrapper>

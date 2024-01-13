@@ -5,6 +5,30 @@ import { SectionTitle } from '../../../components/SectionTitle';
 import { Description } from '../../../components/Description';
 
 const Subscription = styled.section`
+    position: relative;
+
+    &::before {
+        position: absolute;
+        left: -88px;
+        top: -9px;
+        width: 513px;
+        height: 358px;
+        content: "";
+        
+        filter: blur(175px);
+    }
+
+    &::after {
+        position: absolute;
+        left: 151px;
+        bottom: 25px;
+        width: 345px;
+        height: 93px;
+        content: "";
+        background-color: ${theme.colors.filterSubscription};
+        filter: blur(125px);
+    }
+
     ${FlexWrapper} {
         gap: 36px;
         height: auto;

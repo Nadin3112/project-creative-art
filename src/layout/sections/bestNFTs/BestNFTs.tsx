@@ -2,7 +2,7 @@ import React from 'react';
 import { FlexWrapper } from '../../../components/FlexWrapper';
 import { Container } from '../../../components/Container';
 import { SectionTitle } from '../../../components/SectionTitle';
-import { Link } from '../../../components/Link';
+import { LinkButton } from '../../../components/Link';
 import { theme } from '../../../styles/Theme';
 import { NFT } from './nft/NFT';
 import { Description } from '../../../components/Description';
@@ -49,8 +49,8 @@ export const Best:React.FC = () => {
                         <SectionTitle>Create And Sell Your <span>Best NFTs</span></SectionTitle>
                         <Description>Start exploring the world of digital art and NFTs today and take control of your digital assets with confidence!</Description>
                         <FlexWrapper align={"flex-start"}>
-                            <Link linkType="primary" color={theme.colors.primaryLink} backgroundColor={theme.colors.accent} tabIndex={0} href={"#"}>Create Now</Link>
-                            <Link linkType="secondary" color={theme.colors.primaryFont}  tabIndex={0} href={"#"}>Learn More</Link>
+                            <LinkButton linkType="primary" color={theme.colors.primaryLink} backgroundColor={theme.colors.accent} tabIndex={0} href={"#"}>Create Now</LinkButton>
+                            <LinkButton linkType="secondary" color={theme.colors.primaryFont}  tabIndex={0} href={"#"}>Learn More</LinkButton>
                         </FlexWrapper>
                     </S.BestTextWrapper>
                     <S.BestPhotoWrapper>

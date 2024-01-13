@@ -78,7 +78,29 @@ export const GlobalStyled = createGlobalStyle`
 
       @media (min-resolution: 2dppx) {
         background-image: url(${bg2x});
-      }   
+      }
+      
+    /*&::before {
+      position: absolute;
+      left: 550px;
+      bottom: 206px;
+      width: 631px;
+      height: 458px;
+      content: "";
+      background-color: ${theme.colors.filterBg};
+      filter: blur(200px);
+    }
+
+    &::after {
+        position: absolute;
+        left: 151px;
+        bottom: 25px;
+        width: 352px;
+        height: 221px;
+        content: "";
+        background-color: ${theme.colors.filterSubscription};
+        filter: blur(125px);
+    }*/
   }
 
   section {
