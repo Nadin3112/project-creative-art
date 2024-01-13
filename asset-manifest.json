@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/project-creative-art/static/css/main.31d6cfe0.css",
-    "main.js": "/project-creative-art/static/js/main.81b540db.js",
+    "main.js": "/project-creative-art/static/js/main.e8ecab43.js",
     "static/js/787.7375cc00.chunk.js": "/project-creative-art/static/js/787.7375cc00.chunk.js",
     "static/media/Bg@2x.png": "/project-creative-art/static/media/Bg@2x.6c41cb931e424e72abcf.png",
     "static/media/Bg.png": "/project-creative-art/static/media/Bg.a9cc589db44347fa3276.png",
@@ -141,17 +141,17 @@
     "static/media/owner-1@1x.avif": "/project-creative-art/static/media/owner-1@1x.cae0fc46219625227ba3.avif",
     "static/media/owner-3@1x.avif": "/project-creative-art/static/media/owner-3@1x.30e9d31ebcf0c1123c09.avif",
     "static/media/owner-2@1x.webp": "/project-creative-art/static/media/owner-2@1x.1186ec2f76bd43feae60.webp",
+    "index.html": "/project-creative-art/index.html",
     "static/media/owner-5@1x.webp": "/project-creative-art/static/media/owner-5@1x.d15f08dec22e9bc94eb0.webp",
     "static/media/star-mobile@1x.webp": "/project-creative-art/static/media/star-mobile@1x.132a4f88aa55a0e78428.webp",
     "static/media/owner-1@1x.webp": "/project-creative-art/static/media/owner-1@1x.1d39e88a28e67a50e385.webp",
     "static/media/owner-3@1x.webp": "/project-creative-art/static/media/owner-3@1x.9fe017ac924cb977e534.webp",
     "static/media/owner-4@1x.webp": "/project-creative-art/static/media/owner-4@1x.1e925bce1a60fbfc91c8.webp",
-    "index.html": "/project-creative-art/index.html",
-    "main.81b540db.js.map": "/project-creative-art/static/js/main.81b540db.js.map",
+    "main.e8ecab43.js.map": "/project-creative-art/static/js/main.e8ecab43.js.map",
     "787.7375cc00.chunk.js.map": "/project-creative-art/static/js/787.7375cc00.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.81b540db.js"
+    "static/js/main.e8ecab43.js"
   ]
 }
