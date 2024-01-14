@@ -17,6 +17,7 @@ import starMobileAvif from '../../../assets/images/hero/star-mobile@1x.avif';
 import starMobileAvif2x from '../../../assets/images/hero/star-mobile@2x.avif';
 
 const Hero = styled.section`
+    position: relative;
 `
 
 const GridWrapper = styled.div`
@@ -86,7 +87,7 @@ const PhotoWrapper = styled.div`
     grid-column: 2/3;
     position: relative; 
     justify-self: end;
-    
+    position: relative;
 
     &::before {
         position: absolute;
@@ -180,7 +181,7 @@ const BidWrapper = styled.div`
     padding: 20px;
     border-radius: 16px;
     border-top: 1px solid ${theme.colors.accent};
-    background:  ${theme.colors.colorCard};
+    background-color:  ${theme.colors.colorCard};
     box-shadow: 0px 9px 50px 0px rgba(23, 36, 65, 0.04);
 
     @media ${theme.media.tablet} {
@@ -201,6 +202,13 @@ const BidWrapper = styled.div`
         @media ${theme.media.tablet} {
             margin-top: 16px;
         }
+    }
+
+    @media ${theme.media.desktop} {
+        left: 211px;
+        top: 468px;
+        right: auto;
+        bottom: auto;
     }
 `
 const TextBid = styled.span`

@@ -17,6 +17,7 @@ const Subscription = styled.section`
         background-color: ${theme.colors.filterBg};
         background-size: cover;
         filter: blur(175px);
+        z-index: -1;
     }
 
     &::after {
