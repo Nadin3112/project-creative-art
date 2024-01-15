@@ -1,13 +1,11 @@
 import styled from "styled-components";
-import { theme } from "../styles/Theme";
 
 export const Container = styled.div`
-  max-width: 1290px;
+  max-width: 1322px;
+  min-width: 375px;
   width: 100%;
   min-height: 100%;
   margin: 0 auto;
+  padding: 0 16px;
 
-  @media ${theme.media.desktopMax} {
-    padding: 0 16px;
-  }
 `

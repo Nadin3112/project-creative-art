@@ -4,21 +4,30 @@ import { theme } from '../../../styles/Theme';
 import { LinkButton } from '../../../components/LinkButton';
 import { FlexWrapper } from '../../../components/FlexWrapper';
 import { SectionTitle } from '../../../components/SectionTitle';
+import { Container } from '../../../components/Container';
 
 const AmazingWeek = styled.section`
-    position: relative;
 
-    &::before {
-        position: absolute;
-        right: -55px;
-        bottom: -43px;
-        width: 434px;
-        height: 305px;
-        content: "";
-        background-color: ${theme.colors.filterBg};
-        filter: blur(175px);
-        background-size: cover;
-        z-index: -1;
+    ${Container} {
+        position: relative;
+
+        &::before {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            max-width: 434px;
+            width: 100%;
+            height: 305px;
+            content: "";
+            background-color: ${theme.colors.filterBg};
+            filter: blur(175px);
+            background-size: cover;
+            z-index: -1;
+
+            @media ${theme.media.mobile} {
+                content: none;
+            }
+        }
     }
 `
 
@@ -31,10 +40,6 @@ const GridWrapper = styled.div`
         display: block;
         max-width: 600px;
         width: auto;
-
-        @media ${theme.media.desktopMax} {
-            
-        }
     }
 
     ${LinkButton} {

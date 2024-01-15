@@ -129,7 +129,7 @@ const PhotoWrapper = styled.div`
                     background-image: url(${starMobile2x});
                 }
             }   
-        } 
+        }
     }
 `
 

@@ -21,13 +21,14 @@ export const GlobalStyled = createGlobalStyle`
     position: relative;
     display: flex;
     flex-direction: column;
+    min-width: 375px;
+    width: 100%;
     margin: 0;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    min-width: 375px;
     color: ${theme.colors.primaryFont};
     font-size: 16px;
     font-weight: 400;
@@ -58,6 +59,10 @@ export const GlobalStyled = createGlobalStyle`
       flex-shrink: 0;
       filter: blur(200px);
       z-index: -1;
+
+      @media ${theme.media.mobile} {
+        content: none;
+      }
     }
   }
 

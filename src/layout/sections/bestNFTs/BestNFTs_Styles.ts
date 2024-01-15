@@ -3,25 +3,33 @@ import { theme } from '../../../styles/Theme';
 import { Description } from '../../../components/Description';
 import { SectionTitle } from '../../../components/SectionTitle';
 import { FlexWrapper } from '../../../components/FlexWrapper';
+import { Container } from '../../../components/Container';
 
 
 
 const Best = styled.section`
-    position: relative;
 
-    &::before {
-        position: absolute;
-        right: 95px;
-        bottom: 45px;
-        width: 346px;
-        height: 128px;
-        content: "";
-        background-color: ${theme.colors.filterBg};
-        filter: blur(175px);
-        background-size: cover;
-        z-index: -1;
+    ${Container} {
+        position: relative;
+
+        &::before {
+            position: absolute;
+            right: 95px;
+            bottom: 45px;
+            width: 346px;
+            height: 128px;
+            content: "";
+            background-color: ${theme.colors.filterBg};
+            filter: blur(175px);
+            background-size: cover;
+            z-index: -1;
+
+            @media ${theme.media.mobile} {
+                content: none;
+            }
+        }       
     }
-
+    
     ${FlexWrapper} {
         gap: 36px;
         height: auto;

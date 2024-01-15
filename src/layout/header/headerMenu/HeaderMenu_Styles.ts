@@ -39,6 +39,7 @@ const MobileMenuPopup = styled.div<{isOpen: boolean}>`
   bottom: 0;
   right: 0;
   left: 0;
+  width: auto;
   z-index: 99999;
   background-color: ${theme.colors.primaryLink};
   display: flex;

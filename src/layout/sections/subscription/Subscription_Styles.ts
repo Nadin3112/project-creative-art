@@ -3,33 +3,47 @@ import styled from 'styled-components';
 import { FlexWrapper } from '../../../components/FlexWrapper';
 import { SectionTitle } from '../../../components/SectionTitle';
 import { Description } from '../../../components/Description';
+import { Container } from "../../../components/Container";
 
 const Subscription = styled.section`
-    position: relative;
+    
+    ${Container} {
+        position: relative;
 
-    &::before {
-        position: absolute;
-        left: -88px;
-        top: -9px;
-        width: 513px;
-        height: 358px;
-        content: "";
-        background-color: ${theme.colors.filterBg};
-        background-size: cover;
-        filter: blur(175px);
-        z-index: -1;
-    }
+        &::before {
+            position: absolute;
+            left: -88px;
+            top: -9px;
+            max-width: 513px;
+            width: 100%;
+            height: 358px;
+            content: "";
+            background-color: ${theme.colors.filterBg};
+            background-size: cover;
+            filter: blur(175px);
+            z-index: -1;
 
-    &::after {
-        position: absolute;
-        left: 151px;
-        bottom: 25px;
-        width: 345px;
-        height: 93px;
-        content: "";
-        background-color: ${theme.colors.filterSubscription};
-        background-size: cover;
-        filter: blur(125px);
+            @media ${theme.media.mobile} {
+                content: none;
+            }
+        }
+
+        &::after {
+            position: absolute;
+            left: 151px;
+            bottom: 25px;
+            max-width: 345px;
+            width: 100%;
+            height: 93px;
+            content: "";
+            background-color: ${theme.colors.filterSubscription};
+            background-size: cover;
+            filter: blur(125px);
+
+            @media ${theme.media.mobile} {
+                content: none;
+            }
+        }
     }
 
     ${FlexWrapper} {
