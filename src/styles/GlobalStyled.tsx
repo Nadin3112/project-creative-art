@@ -9,33 +9,6 @@ import bgAvif2x from "../assets/images/Bg@2x.avif";
 
 export const GlobalStyled = createGlobalStyle`
 
-@font-face {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    src: url("../fonts/Inter-Regular.woff2") format("woff2");
-    src: url("../fonts/Inter-Regular.woff") format("woff");
-    font-display: swap;
-  }
-
-  @font-face {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 700;
-    src: url("../fonts/Inter-Bold.woff2") format("woff2");
-    src: url("../fonts/Inter-Bold.woff") format("woff");
-    font-display: swap;
-  }
-
-  @font-face {
-    font-family: "Spectral";
-    font-style: normal;
-    font-weight: 500;
-    src: url("../fonts/Spectral-Medium.woff2") format("woff2");
-    src: url("../fonts/Spectral-Medium.woff") format("woff");
-    font-display: swap;
-  }
-
   *,
   *::before,
   *::after {
