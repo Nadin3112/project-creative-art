@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/project-creative-art/static/css/main.31d6cfe0.css",
-    "main.js": "/project-creative-art/static/js/main.4bc40a93.js",
+    "main.js": "/project-creative-art/static/js/main.e840d2a2.js",
     "static/js/787.7375cc00.chunk.js": "/project-creative-art/static/js/787.7375cc00.chunk.js",
     "static/media/Bg@2x.png": "/project-creative-art/static/media/Bg@2x.6c41cb931e424e72abcf.png",
     "static/media/Bg.png": "/project-creative-art/static/media/Bg.a9cc589db44347fa3276.png",
@@ -147,11 +147,11 @@
     "static/media/owner-1@1x.webp": "/project-creative-art/static/media/owner-1@1x.1d39e88a28e67a50e385.webp",
     "static/media/owner-3@1x.webp": "/project-creative-art/static/media/owner-3@1x.9fe017ac924cb977e534.webp",
     "static/media/owner-4@1x.webp": "/project-creative-art/static/media/owner-4@1x.1e925bce1a60fbfc91c8.webp",
-    "main.4bc40a93.js.map": "/project-creative-art/static/js/main.4bc40a93.js.map",
+    "main.e840d2a2.js.map": "/project-creative-art/static/js/main.e840d2a2.js.map",
     "787.7375cc00.chunk.js.map": "/project-creative-art/static/js/787.7375cc00.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.4bc40a93.js"
+    "static/js/main.e840d2a2.js"
   ]
 }
